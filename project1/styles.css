@@ -1,4 +1,43 @@
-body {
-    background-color: pink font-family: 'Open Sans', sans-serif;
+h1,
+h2,
+h3 {
+    text-align: center;
+    background-color: #eb3f33;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 12px;
+}
 
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+
+    font-size: 15px;
+}
+
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400px;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 0.5;
+    background-color: #ffa9a3;
+}
+
+.thought {
+    color: #7a2d27;
+}
+
+.name {
+    color: #471511;
+}
+
+.blockquote {
+    font-style: italic;
+    color: #471511;
 }
