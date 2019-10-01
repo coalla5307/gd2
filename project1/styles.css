@@ -13,7 +13,6 @@ h1 {
 }
 
 h2 {
-
     font-size: 15px;
 }
 
@@ -33,10 +32,12 @@ body {
     color: #7a2d27;
 }
 
+/* used lighter color to create visual image of "thought" as it's impossible to visually see what you think. */
 .name {
     color: #471511;
 }
 
+/* bold seemed to emphasize too much yet the purpose of the bold style isn't emphasizing, so changed the color closer to the background to lower the visual emphasize.*/
 .blockquote {
     font-style: italic;
     color: #471511;
