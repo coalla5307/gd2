@@ -3,7 +3,26 @@
 }
 
 body {
-    background-color: ;
-    color: ;
-    font-family: ;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.card {
+    background-image: url(C:\sites\gd2\project2\images\gsss.jpg);
+    background-repeat: no-repeat;
+    max-width: 640px;
+    height: auto;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    background-color: black;
+    position: relative;
+    top: 100px;
+    left: 0;
 }
