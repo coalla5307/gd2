@@ -5,24 +5,21 @@
 body {
     color: white;
     font-family: 'Cabin', sans-serif;
-
 }
 
 .card {
-    background-image: url(C:\sites\gd2\project2\images\gsss.jpg);
+    background-image: url(images/gsss.jpg);
     background-repeat: no-repeat;
     max-width: 640px;
     height: auto;
     background-size: cover;
+    text-align: center;
+    margin: 200px;
+    padding: 60px;
+    height: 350px;
+    width: 450px;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-.text {
-    background-color: black;
-    position: relative;
-    top: 100px;
-    left: 0;
+a {
+    color: pink;
 }
