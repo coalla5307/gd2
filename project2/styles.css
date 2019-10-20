@@ -9,26 +9,62 @@ body {
     background-image: url(images/gsss.jpg);
     background-size: 640px;
     background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 50px;
     text-align: center;
 
 }
 
 img {
-    height: 30px;
-    width: auto;
-    max-width: 100%;
+    max-width: 110%;
     height: auto;
+
+}
+
+.rating {
+    text-align: right;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11px;
+    padding-top: 70px;
+
+}
+
+.fps {
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+    font-size: 11px;
+    margin-top: -13px;
+
+}
+
+.promotion {
+    font-family: 'Anton', sans-serif;
+}
+
+.release {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
 }
 
 .card {
     background: black;
-    position: relative;
-    left: 100px;
-    width: 500px;
-    padding: 10px;
-
+    opacity: 0.75;
+    position: static;
+    left: 320px;
+    width: 320px;
+    height: 320px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 362px;
+    margin-top: 70px;
 }
 
 a {
-    color: pink;
+    color: #000066;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10%;
 }
