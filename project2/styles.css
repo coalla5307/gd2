@@ -5,19 +5,28 @@
 body {
     color: white;
     font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    background-image: url(images/gsss.jpg);
+    background-size: 640px;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+img {
+    height: 30px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .card {
-    background-image: url(images/gsss.jpg);
-    background-repeat: no-repeat;
-    max-width: 640px;
-    height: auto;
-    background-size: cover;
-    text-align: center;
-    margin: 200px;
-    padding: 60px;
-    height: 350px;
-    width: 450px;
+    background: black;
+    position: relative;
+    left: 100px;
+    width: 500px;
+    padding: 10px;
+
 }
 
 a {
