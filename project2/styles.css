@@ -12,12 +12,18 @@ body {
     background-position-x: 50px;
     background-position-y: 50px;
     text-align: center;
-
 }
 
 img {
-    max-width: 110%;
+    max-width: 100%;
     height: auto;
+}
+
+.star {
+    max-width: 15%;
+    height: auto;
+    margin-top: 75px;
+    margin-left: 205px;
 
 }
 
@@ -26,7 +32,7 @@ img {
     font-family: 'Quicksand', sans-serif;
     font-size: 11px;
     padding-top: 70px;
-
+    margin-top: -96px;
 }
 
 .fps {
@@ -34,11 +40,12 @@ img {
     text-align: right;
     font-size: 11px;
     margin-top: -13px;
-
 }
 
 .promotion {
     font-family: 'Anton', sans-serif;
+    margin-top: 25px;
+    color: grey;
 }
 
 .release {
@@ -53,8 +60,8 @@ img {
     left: 320px;
     width: 320px;
     height: 320px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 362px;
@@ -62,9 +69,13 @@ img {
 }
 
 a {
-    color: #000066;
+    color: white;
     font-family: 'Fjalla One', sans-serif;
     background-color: grey;
     padding: 5px;
     border-radius: 10%;
+}
+
+.url {
+    margin-top: -10px;
 }
