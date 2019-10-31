@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    background-image: url(images/gsss.jpg);
+    /*image from: https://www.dailydot.com/parsec/destiny-first-impression-review/*/
+    background-size: 640px;
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 50px;
+    text-align: center;
+}
+
+img {
+    /* in-game screenshot */
+    max-width: 100%;
+    height: auto;
+}
+
+.star {
+    max-width: 15%;
+    height: auto;
+    margin-top: 75px;
+    margin-left: 205px;
+
+}
+
+.rating {
+    text-align: right;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11px;
+    padding-top: 70px;
+    margin-top: -96px;
+}
+
+.fps {
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+    font-size: 11px;
+    margin-top: -13px;
+}
+
+.promotion {
+    font-family: 'Anton', sans-serif;
+    margin-top: 25px;
+    color: grey;
+}
+
+.release {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+}
+
+.card {
+    background: black;
+    opacity: 0.75;
+    position: static;
+    left: 320px;
+    width: 320px;
+    height: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 362px;
+    margin-top: 70px;
+}
+
+a {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.url {
+    margin-top: -10px;
+}
