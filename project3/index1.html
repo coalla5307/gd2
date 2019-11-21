@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>SUPER HERO REGISTRY</p>
+    <P>With great power there must also come-great responsibility</P>
+    <p>IDENTITY</p>
+    <form action="">
+        <label for="real-name">Real Name</label>
+        <input id="real-name" type="text">
+
+        <label for="alias">Alias</label>
+        <input id="alias" type="text">
+
+        <label for="email">Email</label>
+        <input id="email" type="email">
+        <p>PERSONAL CHARACTERISTICS</p>
+        <label for="age">
+            <input id="age" type="number" placeholder="" required>
+            Age
+        </label>
+
+        <fieldset>
+            <legend>Category</legend>
+            <p>Please select as many as apply to your origin and how you gained your powers.</p>
+            <input id="alien" type="checkbox">
+            <label for="alien">Alien</label>
+
+            <input id="cyborg" type="checkbox">
+            <label for="cyborg">Cyborg</label>
+
+            <input id="experiment" type="checkbox">
+            <label for="experiment">Experiment</label>
+
+            <input id="human" type="checkbox">
+            <label for="human">Human</label>
+
+            <input id="inhuman" type="checkbox">
+            <label for="inhuman">Inhuman</label>
+
+            <input id="mutant" type="checkbox">
+            <label for="mutant">Mutant</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input name="gender" id="female" type="radio">
+            <label for="female">Female</label>
+
+            <input name="gender" id="male" type="radio">
+            <label for="male">Male</label>
+
+            <input name="gender" id="nonbinary" type="radio">
+            <label for="nonbinary">Nonbinary</label>
+
+            <input name="gender" id="genderqueer/genderfluid" type="radio">
+            <label for="genderqueer/genderfluid">Genderqueer/Genderfluid</label>
+
+            <input name="gender" id="prefer not to answer" type="radio">
+            <label for="prefer not to answer">Prefer not to answer</label>
+
+            <input name="gender" id="prefer to self describe" type="radio">
+            <label for="prefer to self describe">Prefer to self describe</label>
+            <textarea name="" id="prefer to self describe">text here</textarea>
+        </fieldset>
+
+        <p>POWERS & ABILITIES</p>
+        <label for="powers">Describe your powers</label>
+        <textarea name="" id="powers">text here</textarea>
+
+        <p>Rate Your Abilities</p>
+        <label for="strength">Strength</label>
+        <select name="" id="strength">
+            <option value="within human norms">Within Human Norms</option>
+            <option value="noticeably above norms">Noticeably Above Norms</option>
+            <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            <option value="wildy beyond norms">Wildy Beyond Norms</option>
+            <option value="unlimited">Unlimited</option>
+        </select>
+        <label for="speed">Speed</label>
+        <select name="" id="speed">
+            <option value="within human norms">Within Human Norms</option>
+            <option value="noticeably above norms">Noticeably Above Norms</option>
+            <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            <option value="wildy beyond norms">Wildy Beyond Norms</option>
+            <option value="unlimited">Unlimited</option>
+        </select>
+        <label for="intelligence">Intelligence</label>
+        <select name="" id="intelligence">
+            <option value="within human norms">Within Human Norms</option>
+            <option value="noticeably above norms">Noticeably Above Norms</option>
+            <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            <option value="wildy beyond norms">Wildy Beyond Norms</option>
+            <option value="unlimited">Unlimited</option>
+        </select>
+        <input id="confirmation" type="checkbox">
+        <label for="confirmation">I confirm the above information represents my current details and is correct to the
+            best of my knowledge.</label>
+
+        <button class="button-reset" type="submit">REGISTER NOW </button>
+
+</body>
