@@ -22,12 +22,14 @@ h2 {
 }
 
 h3 {
+    padding-top: 50px;
     font-size: 40px;
     font-family: 'Teko', sans-serif;
     margin-top: 0;
     margin-bottom: 38px;
     border-bottom: solid #163346;
-    width: 50%;
+    line-height: 1.1;
+
 }
 
 .shield {
@@ -55,14 +57,20 @@ main {
     color: #eaecf0;
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 50px;
     text-align: left;
+}
+
+input[type="text"]:not(:placeholder-shown):invalid,
+input[type="email"]:invalid,
+input[type="number"]:invalid {
+    border-bottom: #71f79f;
 }
 
 legend {
     font-family: Teko;
     font-weight: 500;
     font-size: 40px;
-
 }
 
 fieldset {
@@ -124,4 +132,88 @@ label {
 .bulb {
     vertical-align: middle;
     text-align: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    -moz-apperance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 3px solid white;
+    height: 24px;
+    width: 24px;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: #71f79f;
+}
+
+.confirm {
+    margin-top: 100px;
+
+}
+
+.button-reset {
+    border: 3px;
+    height: 87px;
+    width: 206px;
+    background-color: #71f79f;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    top: 45px;
+    left: 25%;
+}
+
+@media (min-width: 800px) {
+    .category {
+        width: 250px;
+        word-wrap: break-word;
+        position: relative;
+        top: 35px;
+        line-height: 1.1;
+    }
+
+    .gender {
+        position: relative;
+        left: 280px;
+        top: -345px;
+        line-height: 2;
+    }
+
+    .musslearm {
+        position: relative;
+        left: -200px;
+    }
+
+    .clock {
+        position: relative;
+        top: -215px;
+        left: 10px;
+    }
+
+    .bulb {
+        position: relative;
+        top: -432px;
+        left: 215px;
+    }
+
+    .confirm {
+        position: relative;
+        top: -800px;
+    }
+
+    .button-reset {
+        position: relative;
+        top: -700px;
+        left: 225px;
+    }
+
+    .powerabilities {
+        position: relative;
+        top: -350px;
+    }
 }
