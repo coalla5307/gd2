@@ -5,6 +5,8 @@ section {
 nav {
     margin-top: 100px;
     margin-bottom: 0;
+    position: relative;
+    top: 50px;
 }
 
 ul {
@@ -76,15 +78,15 @@ img {
 
 .about {
     max-width: 45%;
-    position: relative;
-    left: 20px;
+    padding-left: 50px;
+    padding-top: 300px;
 }
 
 .about2 {
     max-width: 50%;
     position: relative;
     left: 610px;
-    top: -500px;
+    top: -350px;
     font-family: 'Didact Gothic', sans-serif;
     font-size: 35px;
 }
@@ -98,4 +100,26 @@ body {
 .schedule {
     text-align: center;
 
+}
+
+.laren,
+.christoper,
+.sarah {
+    max-width: 30%;
+}
+
+.laren {
+    margin-left: 30px;
+}
+
+.christoper {
+    position: relative;
+    top: -305px;
+    left: 35%;
+}
+
+.sarah {
+    position: relative;
+    top: -605px;
+    left: 68%;
 }
