@@ -26,7 +26,6 @@ li {
 }
 
 li a {
-
     color: black;
     margin-right: 4px;
     margin-left: 4px;
@@ -120,6 +119,21 @@ body {
 
 .sarah {
     position: relative;
-    top: -605px;
+    top: -610px;
     left: 68%;
+}
+
+.top {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a:link {
+    text-decoration: none;
 }
