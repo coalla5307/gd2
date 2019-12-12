@@ -123,7 +123,9 @@ body {
     left: 68%;
 }
 
-.top {
+
+
+.button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -132,8 +134,4 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
-
-a:link {
-    text-decoration: none;
 }
