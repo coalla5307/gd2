@@ -3,9 +3,99 @@ section {
 }
 
 nav {
-    background-color: hsla(0, 0%, 100%, 92%);
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+
+}
+
+li {
+    display: inline-block;
+    border-left: 2px solid black;
+
+}
+
+li a {
+
+    color: black;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    color: brown;
+}
+
+section {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.about .about2 {
+    background-color: black;
+}
+
+.about {
+    max-width: 45%;
+    position: relative;
+    left: 20px;
+}
+
+.about2 {
+    max-width: 50%;
+    position: relative;
+    left: 610px;
+    top: -500px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 35px;
+}
+
+body {
+    background-image: url(images/panel.png);
+    background-size: 110%;
+    background-position-y: 1020px;
+}
+
+.schedule {
+    text-align: center;
+
 }
